@@ -1,0 +1,54 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(255, 146, 13);
+    color: white;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+img {
+    
+    width: 500px;
+    height: 400px;
+}
+div {
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    max-width: 500px;
+    margin: 1rem  auto;
+}
+
+footer {
+    background-color:  rgb(255, 146, 13);
+    padding: 1.5rem;
+}
+footer a {
+    transition: color 0.3s ease;
+    padding: 0 1rem;
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+footer p {
+    margin: 0;
+    color: white;
+}
+div:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+div {
+    transition: box-shadow 0.3s ease;
+}
